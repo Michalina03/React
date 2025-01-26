@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.header {
+  background-color: #57bab4; /* Zielony kolor paska */
+  color: rgb(97, 5, 183); /* Biały kolor tekstu */
+  text-align: center; /* Wyśrodkowanie tekstu */
+  padding: 15px; /* Wewnętrzne odstępy */
+  font-size: 24px; /* Wielkość tekstu */
+  font-weight: bold; /* Pogrubienie tekstu */
+}/*# sourceMappingURL=header.css.map */
