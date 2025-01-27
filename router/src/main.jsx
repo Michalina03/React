@@ -4,7 +4,6 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 import Header from "./components/Header";
-import "./scss/header.css"
 import Polska from "./components/Polska";
 import Francja from "./components/Francja";
 import Belgia from "./components/Belgia";

@@ -1,13 +1,18 @@
-.p_white {
-  background-color: rgba(255, 243, 218, 0.941);
-  width: 160px;
-  height: 70px;
+@charset "UTF-8";
+.black {
+  background-color: black;
+  width: 70px;
+  height: 150px;
 }
 
-.p_red {
-  background-color: red;
-  width: 160px;
-  height: 70px;
+.yellow {
+  background-color: yellow;
+  width: 70px;
+  height: 150px;
+}
+
+.belgia {
+  display: flex;
 }
 
 .blue {
@@ -32,18 +37,23 @@
   display: flex;
 }
 
-.black {
-  background-color: black;
-  width: 70px;
-  height: 150px;
+.p_white {
+  background-color: rgba(255, 243, 218, 0.941);
+  width: 160px;
+  height: 70px;
 }
 
-.yellow {
-  background-color: yellow;
-  width: 70px;
-  height: 150px;
+.p_red {
+  background-color: red;
+  width: 160px;
+  height: 70px;
 }
 
-.belgia {
-  display: flex;
+.header {
+  background-color: #57bab4; /* Zielony kolor paska */
+  color: rgb(97, 5, 183); /* Biały kolor tekstu */
+  text-align: center; /* Wyśrodkowanie tekstu */
+  padding: 15px; /* Wewnętrzne odstępy */
+  font-size: 24px; /* Wielkość tekstu */
+  font-weight: bold; /* Pogrubienie tekstu */
 }/*# sourceMappingURL=main.css.map */
