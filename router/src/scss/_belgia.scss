@@ -1,13 +1,17 @@
-.black{
-    background-color: black;
-    width: 70px;
-    height: 150px;
-}
-.yellow{
-    background-color: yellow;
-    width: 70px;
-    height: 150px;
-}
 .belgia{
     display: flex;
-}
+    &--yellow{
+        background-color: yellow;
+        width: 70px;
+        height: 150px;
+    }
+    &--black{
+        background-color: black;
+        width: 70px;
+        height: 150px;
+    }
+    &--red{
+        background-color: red;
+        width: 70px;
+        height: 150px;}
+    }
