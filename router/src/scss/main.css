@@ -1,33 +1,18 @@
 @charset "UTF-8";
-.black {
-  background-color: black;
-  width: 70px;
-  height: 150px;
+.belgia {
+  display: flex;
 }
-
-.yellow {
+.belgia--yellow {
   background-color: yellow;
   width: 70px;
   height: 150px;
 }
-
-.belgia {
-  display: flex;
-}
-
-.blue {
-  background-color: blue;
+.belgia--black {
+  background-color: black;
   width: 70px;
   height: 150px;
 }
-
-.white {
-  background-color: rgba(255, 243, 218, 0.941);
-  width: 70px;
-  height: 150px;
-}
-
-.red {
+.belgia--red {
   background-color: red;
   width: 70px;
   height: 150px;
@@ -36,15 +21,29 @@
 .francja {
   display: flex;
 }
-
-.p_white {
+.francja--red {
+  background-color: red;
+  width: 70px;
+  height: 150px;
+}
+.francja--white {
   background-color: rgba(255, 243, 218, 0.941);
+  width: 70px;
+  height: 150px;
+}
+.francja--blue {
+  background-color: blue;
+  width: 70px;
+  height: 150px;
+}
+
+.polska--red {
+  background-color: red;
   width: 160px;
   height: 70px;
 }
-
-.p_red {
-  background-color: red;
+.polska--white {
+  background-color: rgba(255, 243, 218, 0.941);
   width: 160px;
   height: 70px;
 }
