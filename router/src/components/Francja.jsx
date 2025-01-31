@@ -3,9 +3,9 @@ import React from 'react'
 function Francja() {
   return (
     <div className='francja'>
-      <div className='blue'></div>
-      <div className='white'></div>
-      <div className='red'></div>
+      <div className='francja--blue'></div>
+      <div className='francja--white'></div>
+      <div className='francja--red'></div>
     </div>
   )
 }
