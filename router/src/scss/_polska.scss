@@ -1,10 +1,11 @@
-.p_white{
-    background-color: rgba(255, 243, 218, 0.941);
-    width: 160px;
-    height: 70px;
-}
-.p_red{
-    background-color: red;
-    width: 160px;
-    height: 70px;
+.polska{
+    &--red{
+        background-color: red;
+        width: 160px;
+        height: 70px;}
+    &--white{
+        background-color: rgba(255, 243, 218, 0.941);
+        width: 160px;
+        height: 70px;
+    }
 }
