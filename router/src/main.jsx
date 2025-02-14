@@ -5,8 +5,10 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 import Header from "./components/Header";
 import Polska from "./components/Polska";
-import Francja from "./components/Francja";
+import Rosja from "./components/Rosja";
 import Belgia from "./components/Belgia";
+import Niemcy from "./components/Niemcy";
+import Ukraina from "./components/Ukraina";
 import "./scss/main.css"
 
 
@@ -16,13 +18,19 @@ function Navigation(){
       <nav>
         <ul>
           <li>
-            <Link to ="/polska"> Przeejdz do Polski</Link>
+            <Link to ="/polska"> Przejdz do Polski</Link>
           </li>
           <li>
-            <Link to ="/francja">Przejdz do Francji</Link>
+            <Link to ="/rosja">Przejdz do Rosja</Link>
           </li>
           <li>
             <Link to = "/belgia">Przejdz do Belgi</Link>
+          </li>
+          <li>
+            <Link to = "/niemcy">Przejdz do Niemcy</Link>
+          </li>
+          <li>
+            <Link to = "/ukraina">Przejdz do Ukraina</Link>
           </li>
         </ul>
       </nav>
@@ -37,8 +45,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Navigation/>
     <Routes>
       <Route path="/polska" element={<Polska/>}/>
-      <Route path="/francja" element={<Francja/>}/>
+      <Route path="/rosja" element={<Rosja/>}/>
       <Route path="/belgia" element={<Belgia/>}/>
+      <Route path="/niemcy" element={<Niemcy/>}/>
+      <Route path="/ukraina" element={<Ukraina/>}/>
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
