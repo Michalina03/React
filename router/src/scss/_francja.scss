@@ -1,0 +1,18 @@
+.francja{
+    display: flex;
+    &--red{
+        background-color: red;
+        width: 70px;
+        height: 150px;
+    }
+    &--white{
+        background-color: rgba(255, 243, 218, 0.941);
+        width: 70px;
+        height: 150px;
+    }
+    &--blue{
+        background-color: blue;
+        width: 70px;
+        height: 150px;
+    }
+}
