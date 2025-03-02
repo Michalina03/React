@@ -1,0 +1,141 @@
+<<<<<<< HEAD
+.header {
+  background-color: gray;
+  color: black;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.belgia {
+  display: flex;
+}
+.belgia--red {
+  background-color: red;
+  width: 70px;
+  height: 150px;
+}
+.belgia--yellow {
+  background-color: yellow;
+  width: 70px;
+  height: 150px;
+}
+=======
+@charset "UTF-8";
+.belgia {
+  display: flex;
+}
+.belgia--yellow {
+  background-color: yellow;
+  width: 70px;
+  height: 150px;
+}
+>>>>>>> f0ffa9c492c899b341357a3255bf21c8d3089309
+.belgia--black {
+  background-color: black;
+  width: 70px;
+  height: 150px;
+<<<<<<< HEAD
+}
+
+.rosja--white {
+  background-color: white;
+  width: 210px;
+  height: 46px;
+}
+.rosja--blue {
+  background-color: blue;
+  width: 210px;
+  height: 46px;
+}
+.rosja--red {
+=======
+}
+.belgia--red {
+>>>>>>> f0ffa9c492c899b341357a3255bf21c8d3089309
+  background-color: red;
+  width: 210px;
+  height: 46px;
+}
+
+.polska--white {
+  background-color: white;
+  width: 210px;
+  height: 70px;
+}
+<<<<<<< HEAD
+.polska--red {
+  background-color: red;
+  width: 210px;
+  height: 70px;
+}
+
+.niemcy--black {
+  background-color: black;
+  width: 210px;
+  height: 46px;
+}
+.niemcy--red {
+  background-color: red;
+  width: 210px;
+  height: 46px;
+}
+.niemcy--yellow {
+  background-color: yellow;
+  width: 210px;
+  height: 46px;
+}
+
+.ukraina--blue {
+  background-color: blue;
+  width: 210px;
+  height: 70px;
+}
+.ukraina--yellow {
+  background-color: yellow;
+  width: 210px;
+  height: 70px;
+}/*# sourceMappingURL=main.css.map */
+=======
+.francja--red {
+  background-color: red;
+  width: 70px;
+  height: 150px;
+}
+.francja--white {
+  background-color: rgba(255, 243, 218, 0.941);
+  width: 70px;
+  height: 150px;
+}
+.francja--blue {
+  background-color: blue;
+  width: 70px;
+  height: 150px;
+}
+
+.polska--red {
+  background-color: red;
+  width: 160px;
+  height: 70px;
+}
+.polska--white {
+  background-color: rgba(255, 243, 218, 0.941);
+  width: 160px;
+  height: 70px;
+}
+
+.header {
+  background-color: #57bab4; /* Zielony kolor paska */
+  color: rgb(97, 5, 183); /* Biały kolor tekstu */
+  text-align: center; /* Wyśrodkowanie tekstu */
+  padding: 15px; /* Wewnętrzne odstępy */
+  font-size: 24px; /* Wielkość tekstu */
+  font-weight: bold; /* Pogrubienie tekstu */
+}/*# sourceMappingURL=main.css.map */
+>>>>>>> f0ffa9c492c899b341357a3255bf21c8d3089309

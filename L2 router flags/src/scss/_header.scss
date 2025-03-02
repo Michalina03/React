@@ -1,0 +1,13 @@
+.header {
+  background-color: gray;
+  color:black; // Kolor tekstu
+  text-align: center; // Wyśrodkowanie tekstu
+  font-size: 24px; // Wielkość tekstu
+  font-weight: bold; // Pogrubienie tekstu
+  height: 20vh; // Pełna wysokość ekranu
+  width: 100vw; // Pełna szerokość ekranu
+  display: flex; // Użycie flexboxa
+  justify-content: center; // Wyśrodkowanie w poziomie
+  align-items: center; // Wyśrodkowanie w pionie
+  margin-top: 0;
+  }
