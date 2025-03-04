@@ -1,0 +1,62 @@
+.characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: $color1; // Tło strony
+  }
+  
+  // Styles for individual Character card
+  .character {
+    background-color: $color2; // Tło kart postaci
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    p {
+      color: $color3; // Kolor tekstu
+      margin: 5px 0;
+    }
+  
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+  
+    // Stylowanie dla każdego elementu tekstowego z użyciem zmiennych rozmiarów czcionek
+    p:nth-child(1) {
+      font-size: $font-size-2;
+      font-weight: bold;
+    }
+  
+    p:nth-child(2) {
+      font-size: $font-size-3;
+    }
+  
+    p:nth-child(3) {
+      font-size: $font-size-3;
+    }
+  
+    p:nth-child(4) {
+      font-size: $font-size-3;
+    }
+  
+    p:nth-child(5) {
+      font-size: $font-size-3;
+    }
+  
+    // Stylowanie dla statusu postaci
+    p:nth-child(3) {
+      color: $color4; // Kolor dla statusu (czerwony)
+    }
+  
+    // Stylowanie dla gatunku/typów postaci
+    p:nth-child(4),
+    p:nth-child(5) {
+      color: $color5; // Kolor dla typu/rodzaju postaci (niebieski)
+    }
+  }
